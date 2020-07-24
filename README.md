@@ -1,5 +1,10 @@
 # docker-terraform-aws
 
+[![](https://images.microbadger.com/badges/version/basile/terraform-aws.svg)](https://hub.docker.com/repository/docker/basile/terraform-aws)
+[![](https://images.microbadger.com/badges/image/basile/terraform-aws.svg)](https://hub.docker.com/repository/docker/basile/terraform-aws)
+
+[![](https://dockeri.co/image/basile/terraform-aws)](https://hub.docker.com/r/basile/terraform-aws)
+
 Same as the official [hashicorp/docker-hub-images](https://github.com/hashicorp/docker-hub-images), but without `ENTRYPOINT`.
 
 Like some other CI/CD plateform Gitlab CI does not let you override `ENTRYPOINT`, meaning you can't use the official terraform image in your Gitlab-CI builds.
@@ -30,7 +35,7 @@ This image also contain additional tools:
 
     build:
         docker:
-          - image: basile/terraform-aws:0.12.19
+          - image: basile/terraform-aws:0.12.28
 
 
 # Builds
