@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.13.0
 MAINTAINER "L0gIn <basiletrujillo@gmail.com>"
 
 ENV TERRAFORM_VERSION=0.12.28
